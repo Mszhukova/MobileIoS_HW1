@@ -35,7 +35,6 @@ class ViewController: UIViewController {
         
         performSegue(withIdentifier: "resultController", sender: sender)
         
-        //var globalSum: SumManager = SumManager(value: totalSum)
 
         
     }
