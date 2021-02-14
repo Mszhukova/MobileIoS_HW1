@@ -13,10 +13,7 @@ class SumResult {
     init(value: Int){
         self.value = value
     }
-    
-    func printResult(){
-        print(String(describing: value))
-    }
+
 }
 class SumResultManager {
     static let shared = SumResultManager()
